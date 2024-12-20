@@ -1,0 +1,129 @@
+/* Définition des couleurs et styles globaux */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #f0f8ff);
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* En-tête */
+#header {
+    background: linear-gradient(to right, #4caf50, #8bc34a);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.title {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Menu de navigation */
+nav .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: #333;
+}
+
+nav .menu li {
+    position: relative;
+}
+
+nav .menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav .menu li a:hover {
+    background: #575757;
+}
+
+/* Menu déroulant */
+nav .menu li:hover ul {
+    display: block;
+}
+
+nav .menu li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1000;
+}
+
+nav .menu li ul li a {
+    padding: 10px 20px;
+    white-space: nowrap;
+}
+
+/* Contenu */
+.section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+.stylepara {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Table produits */
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.product-table th, .product-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-table th {
+    background: #4caf50;
+    color: white;
+}
+
+.product-table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.product-table tr:hover {
+    background: #f1f1f1;
+}
+
+/* Pied de page */
+#footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    font-size: 0.9em;
+}
