@@ -11,7 +11,7 @@
     <div>
         <h1>Société Lafleur</h1>
         <p> <img src="Images/accueil.JPG" alt="mon image1"> Photo de fleur</a></p>
-        <p>Appelez notre service commercial au 03.22.84.65.74 pour recevoir un bon de commande </p> blabla
+        <p>Appelez notre service commercial au 03.22.84.65.74 pour recevoir un bon de commande </p> 
     </div>
 </body>
 </html>
